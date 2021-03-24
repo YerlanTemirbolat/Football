@@ -25,7 +25,7 @@ class SecondScreen: UIViewController {
         view.backgroundColor = .white
         
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Choose your shirt"
+        label.text = "Choose your kit"
         label.font = UIFont.systemFont(ofSize: 25)
         label.textAlignment = .center
         label.textColor = #colorLiteral(red: 0.4703980684, green: 0.7596912384, blue: 0.7031006217, alpha: 1)
@@ -95,5 +95,4 @@ class SecondScreen: UIViewController {
             interButton.heightAnchor.constraint(equalToConstant: 150)
         ])
     }
-   
 }
